@@ -1,0 +1,279 @@
+{
+  "category_aliases": {
+    "Jr Men 13-14": [
+      "Boys 13-14",
+      "JR M 13-14"
+    ],
+    "Jr Men U13": [
+      "Boys U13 (12 and Under)",
+      "Boys U13",
+      "JR M 9-12"
+    ],
+    "Jr Women 13-14": [
+      "Girls 13-14",
+      "JR W 13-14"
+    ],
+    "Jr Women U13": [
+      "Girls U13 (12 and Under)",
+      "Girls U13",
+      "JR W 9-12"
+    ],
+    "Masters Men 40+": [
+      "Men 1/2/3/4 40+",
+      "MAS 40",
+      "MAS M 40"
+    ],
+    "Masters Men 50+": [
+      "Men 1/2/3/4 50+",
+      "MAS 50",
+      "MAS M 50"
+    ],
+    "Masters Men 60+": [
+      "Men 1/2/3/4 60+",
+      "MAS 60",
+      "MAS M 60"
+    ],
+    "Men 1/2": [
+      "Elite Men 1/2",
+      "Men Cat2",
+      "Cat 2 Men",
+      "MWCCC Men"
+    ],
+    "Men 15-18": [
+      "Boys 15-18",
+      "JR M 15-18",
+      "JR M 15-16"
+    ],
+    "Men 3": [
+      "Men Cat3",
+      "Cat 3 Men"
+    ],
+    "Men 3 40+": [
+      "Mas 40 Cat 3",
+      "MAS 40 Cat 3",
+      "MAS M3 40"
+    ],
+    "Men 35+": [
+      "Elite 35+",
+      "MAS 35",
+      "MAS M 35",
+      "Elite Men 35+"
+    ],
+    "Men 4": [
+      "Men Cat4",
+      "Cat 4 Men"
+    ],
+    "Men 4 40+": [
+      "Mas 40 Cat 4",
+      "MAS M 40 4-5"
+    ],
+    "Men 5": [
+      "Men Cat5",
+      "Cat 5 Men",
+      "Category 5 Men"
+    ],
+    "Men SS": [
+      "Men Single Speed",
+      "Men Singlespeed",
+      "Men SS 1/2/3/4",
+      "MEN SS",
+      "Men Single Speed 1/2/3/4",
+      "M SS"
+    ],
+    "Men U19": [
+      "Boys U19 (18 and Under)",
+      "Boys U19",
+      "JR M U19"
+    ],
+    "Men U23": [
+      "Elite Men U23",
+      "Men  U23",
+      "U23 Men"
+    ],
+    "Women 1/2": [
+      "Elite Women 1/2",
+      "W CAT 2",
+      "W Cat 2",
+      "W U23",
+      "Women 2",
+      "U23 Women",
+      "MWCCC Women"
+    ],
+    "Women 15-18": [
+      "Girls 15-18",
+      "Jr W 15-18",
+      "JR W 15-18",
+      "JR W 15-16"
+    ],
+    "Women 3": [
+      "W CAT 3",
+      "W Cat 3"
+    ],
+    "Women 35+": [
+      "Elite Women 35+",
+      "MAS W 35",
+      "MAS W 40",
+      "MAS W 50",
+      "MAS W 60"
+    ],
+    "Women 4/5": [
+      "Wm 4-5",
+      "W Cat 4-5",
+      "Women 4-5"
+    ],
+    "Women 4/5 40+": [
+      "Wm 4-5 40+",
+      "Mas W 40 4-5",
+      "MAS W 40 4-5"
+    ],
+    "Women SS": [
+      "Women Single Speed 1/2/3/4",
+      "Women SS 1/2/3/4",
+      "Wm SS",
+      "W SS"
+    ],
+    "Women U19": [
+      "Elite Girls U19",
+      "JR W U19",
+      "Elite Girls U19 (18 and Under)"
+    ]
+  },
+  "column_aliases": {
+    "Laps": [
+      "Total Laps"
+    ],
+    "Time": [
+      "Total Time"
+    ],
+    "Rider License #": [
+      "License #",
+      "License"
+    ],
+    "Rider Place": [
+      "Place"
+    ],
+    "Rider First Name": [
+      "First"
+    ],
+    "Rider Last Name": [
+      "Last",
+      "LAST"
+    ],
+    "Bib #": [
+      "Bib"
+    ]
+  },
+  "drop_licenses": [
+    "ONE DAY",
+    "",
+    "INTL-CAN"
+  ],
+  "drop_waves": [
+    "Kids\u2019 Fun Ride! 9 & under",
+    "IPad POS Items - POS",
+    "License - 9/19/2021 - One-day License",
+    "NONE",
+    "UCI Elite Men",
+    "UCI Elite Women",
+    "JR W UCI",
+    "UCI JR W",
+    "UCI Jr M",
+    "UCI JR M",
+    "JR M UCI"
+  ],
+  "output_data": "./race_results",
+  "prize_results": "./race_results/prizes.csv",
+  "race_data": "./races/*.xlsx",
+  "callups_data": "./race_registrations",
+  "race_dates": {
+    "OVCX_1_Beach Party": "2021-09-19",
+    "OVCX_2_Bloomingcross": "2021-09-26",
+    "OVCX_3_Brookside": "2021-10-03",
+    "OVCX_4_Kings Day 1": "2021-10-23",
+    "OVCX_5_Kings Day 2": "2021-10-24",
+    "OVCX_6_Major Taylor Day 1": "2021-10-30",
+    "OVCX_7_Major Taylor Day 2": "2021-10-31"
+  },
+  "secrets": {
+    "ovcx_username": "",
+    "ovcx_password": ""
+  },
+  "wave_multiplier": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 3,
+    "6": 4,
+    "7": 4,
+    "8": 4
+  },
+  "UCI_wave_drops": {
+    "OVCX_4_Kings Day 1": [
+      "Men 1/2",
+      "Women 1/2"
+    ],
+    "OVCX_5_Kings Day 2": [
+      "Men 1/2",
+      "Women 1/2"
+    ],
+    "OVCX_6_Major Taylor Day 1": [
+      "Men 1/2",
+      "Women 1/2"
+    ],
+    "OVCX_7_Major Taylor Day 2": [
+      "Men 1/2",
+      "Women 1/2"
+    ]
+  },
+  "best_of_count": 4,
+  "UCI_best_of_count": 3,
+  "UCI_best_of_waves": [
+    "Men 1/2",
+    "Women 1/2"
+  ],
+  "waves": {
+    "1": [
+      "Men 5"
+    ],
+    "2": [
+      "Women SS",
+      "Women 4/5",
+      "Women 15-18",
+      "Women 4/5 40+"
+    ],
+    "3": [
+      "Men 4",
+      "Men 15-18",
+      "Men 4 40+"
+    ],
+    "4": [
+      "Jr Men 13-14",
+      "Jr Men U13",
+      "Jr Women 13-14",
+      "Jr Women U13"
+    ],
+    "5": [
+      "Men 3",
+      "Men 3 40+",
+      "Men U19"
+    ],
+    "6": [
+      "Masters Men 40+",
+      "Masters Men 50+",
+      "Masters Men 60+",
+      "Men SS"
+    ],
+    "7": [
+      "Women 35+",
+      "Women 3",
+      "Women U19",
+      "Women 1/2"
+    ],
+    "8": [
+      "Men 35+",
+      "Men 1/2",
+      "Men U23"
+    ]
+  }
+}
