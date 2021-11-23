@@ -173,6 +173,7 @@ def remove_null_data(race_data):
 def set_bib_license_integer(race_data):
     # Set bib # and license # to integers
     col_names = race_data.columns.tolist()
+
     if 'Rider License #' in col_names:
         race_data['Rider License #'] = np.where(
             np.bitwise_or(race_data['Rider License #'].isin(get_config()['drop_licenses']),
@@ -185,6 +186,7 @@ def set_bib_license_integer(race_data):
             np.bitwise_or(race_data['Bib #'] == 'nan', race_data['Bib #'].isnull()),
             0, race_data['Bib #'])
         race_data = race_data.astype({'Bib #': 'int32'})
+
     return race_data
 
 

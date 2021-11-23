@@ -97,7 +97,8 @@
       "W U23",
       "Women 2",
       "U23 Women",
-      "MWCCC Women"
+      "MWCCC Women",
+      "Women U23"
     ],
     "Women 15-18": [
       "Girls 15-18",
@@ -192,7 +193,8 @@
     "OVCX_4_Kings Day 1": "2021-10-23",
     "OVCX_5_Kings Day 2": "2021-10-24",
     "OVCX_6_Major Taylor Day 1": "2021-10-30",
-    "OVCX_7_Major Taylor Day 2": "2021-10-31"
+    "OVCX_7_Major Taylor Day 2": "2021-10-31",
+	"OVCX_8_John Bryan": "2021-11-31"
   },
   "secrets": {
     "ovcx_username": "",
@@ -211,19 +213,23 @@
   "UCI_wave_drops": {
     "OVCX_4_Kings Day 1": [
       "Men 1/2",
-      "Women 1/2"
+      "Women 1/2",
+	  "Women U19"
     ],
     "OVCX_5_Kings Day 2": [
       "Men 1/2",
-      "Women 1/2"
+      "Women 1/2",
+	  "Women U19"
     ],
     "OVCX_6_Major Taylor Day 1": [
       "Men 1/2",
-      "Women 1/2"
+      "Women 1/2",
+	  "Women U19"
     ],
     "OVCX_7_Major Taylor Day 2": [
       "Men 1/2",
-      "Women 1/2"
+      "Women 1/2",
+	  "Women U19"
     ]
   },
   "best_of_count": 4,
