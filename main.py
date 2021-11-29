@@ -97,10 +97,10 @@ def get_wave_data(race_data: pandas.DataFrame) -> Dict[str, pandas.DataFrame]:
     current_wave_results = dict()
 
     race_data = remove_drop_waves(race_data)
+    race_data['Category'] = race_data['Category'].apply(lambda x: fix_category_alias(x))
     race_data = set_bib_license_integer(race_data)
     race_data = sort_by_laps_and_time(race_data)
     race_data = fix_place_scoring(race_data)
-    race_data['Category'] = race_data['Category'].apply(lambda x: fix_category_alias(x))
     race_data['Place Points'] = race_data[['Rider Place', 'Category']].apply(
         lambda x: get_category_place_points(*x), axis=1)
     # Reorder
@@ -141,8 +141,14 @@ def sort_by_laps_and_time(race_data: pandas.DataFrame) -> pandas.DataFrame:
         # Create time index
         race_data['Elapsed Seconds'] = race_data['Time'].apply(elapsed_seconds)
         race_data = race_data.sort_values(by=['Laps', 'Elapsed Seconds'], ascending=[False, True])
-        race_data = race_data.drop(columns=['Elapsed Seconds'])
+        race_data = race_data.drop(columns=['Elapsed Seconds', 'index'])
     return race_data
+
+
+def remove_special_characters_in_name(name: str) -> str:
+    for replace_char in ['.', ',', '-']:
+        name = name.title().replace(replace_char, ' ').strip()
+    return name
 
 
 def assign_rider_name(race_data: pandas.DataFrame) -> pandas.DataFrame:
@@ -151,7 +157,7 @@ def assign_rider_name(race_data: pandas.DataFrame) -> pandas.DataFrame:
         race_data['Rider Name'] = race_data['Rider First Name'] + ' ' + race_data['Rider Last Name']
 
     # Camel case
-    race_data['Rider Name'] = race_data['Rider Name'].apply(lambda x: x.title().replace('.', ''))
+    race_data['Rider Name'] = race_data['Rider Name'].apply(remove_special_characters_in_name)
 
     if 'Rider First Name' not in col_names:
         race_data['Rider First Name'] = race_data['Rider Name'].apply(lambda x: x.split(' ')[0])
