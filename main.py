@@ -309,8 +309,8 @@ def count_not_zero(s: pandas.Series) -> int:
 
 def main() -> None:
     process_race_results()
-    process_raffle_results()
-    process_callups()
+    # process_raffle_results()
+    # process_callups()
 
 
 def process_raffle_results():

@@ -162,9 +162,6 @@
     ],
     "Bib #": [
       "Bib"
-    ],
-    "Category":[
-      "Race Category"
     ]
   },
   "drop_licenses": [
@@ -190,7 +187,14 @@
   "race_data": "./races/*.xlsx",
   "callups_data": "./race_registrations",
   "race_dates": {
-    "OVCX_1_Carter Park": "2022-09-11"
+    "OVCX_1_Beach Party": "2021-09-19",
+    "OVCX_2_Bloomingcross": "2021-09-26",
+    "OVCX_3_Brookside": "2021-10-03",
+    "OVCX_4_Kings Day 1": "2021-10-23",
+    "OVCX_5_Kings Day 2": "2021-10-24",
+    "OVCX_6_Major Taylor Day 1": "2021-10-30",
+    "OVCX_7_Major Taylor Day 2": "2021-10-31",
+	"OVCX_8_John Bryan": "2021-11-31"
   },
   "secrets": {
     "ovcx_username": "",
