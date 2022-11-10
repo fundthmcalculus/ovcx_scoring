@@ -7,7 +7,8 @@
     "Jr Men U13": [
       "Boys U13 (12 and Under)",
       "Boys U13",
-      "JR M 9-12"
+      "JR M 9-12",
+      "JR M U13"
     ],
     "Jr Women 13-14": [
       "Girls 13-14",
@@ -16,26 +17,31 @@
     "Jr Women U13": [
       "Girls U13 (12 and Under)",
       "Girls U13",
-      "JR W 9-12"
+      "JR W 9-12",
+      "JR W U13"
     ],
     "Masters Men 40+": [
       "Men 1/2/3/4 40+",
       "MAS 40",
-      "MAS M 40"
+      "MAS M 40",
+      "Men 40+"
     ],
     "Masters Men 50+": [
       "Men 1/2/3/4 50+",
       "MAS 50",
-      "MAS M 50"
+      "MAS M 50",
+      "Men 50+"
     ],
     "Masters Men 60+": [
       "Men 1/2/3/4 60+",
       "MAS 60",
-      "MAS M 60"
+      "MAS M 60",
+      "Men 60+"
     ],
     "Men 1/2": [
       "Elite Men 1/2",
       "Men Cat2",
+      "Men 2",
       "Cat 2 Men",
       "MWCCC Men"
     ],
@@ -51,7 +57,8 @@
     "Men 3 40+": [
       "Mas 40 Cat 3",
       "MAS 40 Cat 3",
-      "MAS M3 40"
+      "MAS M3 40",
+      "40 M Cat 3"
     ],
     "Men 35+": [
       "Elite 35+",
@@ -65,7 +72,9 @@
     ],
     "Men 4 40+": [
       "Mas 40 Cat 4",
-      "MAS M 40 4-5"
+      "MAS M 40 4-5",
+      "40 Men Cat 4",
+      "40 M Cat 4"
     ],
     "Men 5": [
       "Men Cat5",
@@ -88,7 +97,8 @@
     "Men U23": [
       "Elite Men U23",
       "Men  U23",
-      "U23 Men"
+      "U23 Men",
+      "M U23"
     ],
     "Women 1/2": [
       "Elite Women 1/2",
@@ -120,12 +130,16 @@
     "Women 4/5": [
       "Wm 4-5",
       "W Cat 4-5",
-      "Women 4-5"
+      "Women 4-5",
+      "Women 4",
+      "W 4-5"
     ],
     "Women 4/5 40+": [
       "Wm 4-5 40+",
       "Mas W 40 4-5",
-      "MAS W 40 4-5"
+      "MAS W 40 4-5",
+      "Women 4 40+",
+      "4-5 W 40"
     ],
     "Women SS": [
       "Women Single Speed 1/2/3/4",
@@ -154,11 +168,13 @@
       "Place"
     ],
     "Rider First Name": [
-      "First"
+      "First",
+      "First name"
     ],
     "Rider Last Name": [
       "Last",
-      "LAST"
+      "LAST",
+      "Last name"
     ],
     "Bib #": [
       "Bib"
@@ -190,7 +206,13 @@
   "race_data": "./races/*.xlsx",
   "callups_data": "./race_registrations",
   "race_dates": {
-    "OVCX_1_Carter Park": "2022-09-11"
+    "OVCX_1_Carter Park": "2022-09-11",
+    "OVCX_2_Shred The Beach": "2022-09-25",
+    "OVCX_3_Brookside": "2022-10-02",
+    "OVCX_4_Kings Day 1": "2022-10-23",
+    "OVCX_5_Kings Day 2": "2022-10-24",
+    "OVCX_6_Major Taylor Day 1": "2022-10-29",
+    "OVCX_7_Major Taylor Day 2": "2022-10-30"
   },
   "secrets": {
     "ovcx_username": "",
@@ -220,12 +242,14 @@
     "OVCX_6_Major Taylor Day 1": [
       "Men 1/2",
       "Women 1/2",
-	  "Women U19"
+	  "Women U19",
+      "Men Cat 5"
     ],
     "OVCX_7_Major Taylor Day 2": [
       "Men 1/2",
       "Women 1/2",
-	  "Women U19"
+	  "Women U19",
+      "Men Cat 5"
     ]
   },
   "best_of_count": 4,
